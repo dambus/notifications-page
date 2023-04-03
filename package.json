@@ -1,0 +1,22 @@
+{
+  "name": "notifications-page",
+  "version": "1.0.0",
+  "description": "Frontend mentor challenge - notifications page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "notifications",
+    "page",
+    "frontend",
+    "mentor",
+    "challenge",
+    "js"
+  ],
+  "author": "Milan Djumic",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  }
+}
