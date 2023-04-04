@@ -2,7 +2,6 @@
   "name": "notifications-page",
   "version": "1.0.0",
   "description": "Frontend mentor challenge - notifications page",
-  "main": "index.js",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html"
