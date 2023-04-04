@@ -1,17 +1,42 @@
 header {
+  // margin-top: 1rem;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 1rem;
+  @include md {
+    margin-top: 0;
+  }
   h1 {
-    // flex: 50%;
-    font-size: 1.825rem;
-    font-weight: 800;
+    font-size: 1rem;
+    @include md {
+      font-size: 1.825rem;
+      font-weight: 800;
+    }
+  }
+  .notifications-counter {
+    position: absolute;
+    color: $c-white;
+    margin-left: 6px;
+    margin-top: 0px;
+    padding: 2px 8px;
+    background-color: $c-blue;
+    border-radius: 4px;
+    font-size: 14px;
+    @include md {
+      font-size: 20px;
+      margin-top: 6px;
+    }
   }
 
   .mark-read {
     color: $c-Dark-grayish-blue;
+    font-size: 14px;
+    @include md {
+      font-size: 1rem;
+    }
     // flex: 50%;
   }
 }

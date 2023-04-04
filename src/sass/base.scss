@@ -163,6 +163,8 @@ a {
 
 .container {
   max-width: 375px;
+
+  padding: 0;
   @include md {
     max-width: 768px;
   }
@@ -171,9 +173,17 @@ a {
 main {
   background-color: $c-white;
   color: $c-Very-dark-blue;
-  margin-top: 3rem;
-  padding: 2rem;
+  margin-top: 2rem;
+  padding: 0.5rem;
+  @include md {
+    margin-top: 3rem;
+    padding: 2rem;
+  }
   border-radius: 1rem;
+}
+
+footer {
+  margin-top: 2rem;
 }
 
 .hidden {
