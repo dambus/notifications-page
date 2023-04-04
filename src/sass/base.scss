@@ -151,6 +151,8 @@ select {
 body {
   font-family: $f-jakarta;
   font-size: 1rem;
+  font-weight: 500;
+  color: $c-Dark-grayish-blue;
   background-color: $c-Very-light-grayish-blue;
 }
 
@@ -174,5 +176,6 @@ main {
   border-radius: 1rem;
 }
 
-h1 {
+.hidden {
+  display: none;
 }
