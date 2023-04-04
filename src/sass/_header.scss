@@ -1,0 +1,17 @@
+header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  h1 {
+    // flex: 50%;
+    font-size: 1.825rem;
+    font-weight: 800;
+  }
+
+  .mark-read {
+    color: $c-Dark-grayish-blue;
+    // flex: 50%;
+  }
+}
